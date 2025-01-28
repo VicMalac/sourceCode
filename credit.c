@@ -29,20 +29,24 @@ int main(void){
         char banco[15] = "VISA"; //VISA pode ter 13 ou 16 dígitos
         printf("%s \n", banco);//Imprime de qual marca de pagamento é o cartão
         n12 *= 2; n10 *= 2; n8 *= 2; n6 *= 2; n4 *= 2; n2 *= 2; //Multiplica os números do cartão por 2, começando pelo penúltimo
-        printf("%d \n", n12);
         if (n12 >= 10){
             int v1 = n12 % 10;
             int v2 = (n12 % 100)/10;
-            int soma1 = 0;
-            soma1 += v1 + v2;
-            printf("%d \n", n10);
+            n12 = v1 + v2;
+            printf("%d \n", n12);
         }
         if (n10 >= 10){
-            int v1 = n12 % 10;
-            int v2 = (n12 % 100)/10;
+            int v1 = n10 % 10;
+            int v2 = (n10 % 100)/10;
+            n10 = v1 + v2;
+            printf("%d \n", n10);
+        }
+        if (n8 >= 10){
+            int v1 = n8 % 10;
+            int v2 = (n8 % 100)/10;
             int soma1 = 0;
-            soma1 += v1 + v2;
-            printf("%d \n", soma1);
+            n8 = v1 + v2;
+            printf("%d \n", n8);
         }
     }
     else{
