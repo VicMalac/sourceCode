@@ -3,7 +3,7 @@
 int main(void){
     long long i = 3787344936712345; // Número do cartão
 
-    // Vendo qual a ordem do digito do cartão
+    // Vendo qual a ordem do digito do cartão 
     long long n16 = i % 10; 
     long long n15 = (i % 100) / 10;
     long long n14 = (i % 1000) / 100;
