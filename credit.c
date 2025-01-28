@@ -11,7 +11,7 @@ int separar_digitos(int valor) {
 int main(void){
     long long i = 378734493671000; // Número do cartão
 
-    // Extração dos dígitos individuais do cartão de créditoo
+    // Extração dos dígitos do cartão de créditoo
     long long n16 = i % 10; 
     long long n15 = (i % 100) / 10;
     long long n14 = (i % 1000) / 100;
