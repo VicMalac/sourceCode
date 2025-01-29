@@ -4,7 +4,7 @@ int separar(){
     
 }
 int main(void){
-    long long i = 4532778771095; // Número do cartão (Esse número é válido: 4532778771095)
+    long long i = 5502099972214302; // Número do cartão (Esse número é válido: 4532778771095 371449635398431 5200828282828210 4111111111111111)
 
     // Vendo qual a ordem do digito do cartão 
     long long n16 = i % 10;//0
@@ -33,20 +33,31 @@ int main(void){
             int v1 = n12 % 10;
             int v2 = (n12 % 100)/10;
             n12 = v1 + v2;
-            printf("%d \n", n12);
         }
         if (n10 >= 10){
             int v1 = n10 % 10;
             int v2 = (n10 % 100)/10;
             n10 = v1 + v2;
-            printf("%d \n", n10);
         }
         if (n8 >= 10){
             int v1 = n8 % 10;
             int v2 = (n8 % 100)/10;
-            int soma1 = 0;
             n8 = v1 + v2;
-            printf("%d \n", n8);
+        }
+        if (n6 >= 10){
+            int v1 = n6 % 10;
+            int v2 = (n6 % 100)/10;
+            n6 = v1 + v2;
+        }
+        if (n4 >= 10){
+            int v1 = n4 % 10;
+            int v2 = (n4 % 100)/10;
+            n4 = v1 + v2;
+        }
+        if (n2 >= 10){
+            int v1 = n2 % 10;
+            int v2 = (n2 % 100)/10;
+            n2 = v1 + v2;
         }
     }
     else{
@@ -55,27 +66,140 @@ int main(void){
             n14 *= 2; n12 *= 2; n10 *= 2; n8 *= 2; n6 *= 2; n4 *= 2; n2 *= 2;
             char * banco = "AMEX"; //Imprime de qual marca de pagamento é o cartão
             printf("%s \n", banco);//Amex tem 15 dígitos
-            printf("%d \n", n2);
+            if (n14 >= 10){
+            int v1 = n14 % 10;
+            int v2 = (n14 % 100)/10;
+            n14 = v1 + v2;
+            }
+            if (n12 >= 10){
+            int v1 = n12 % 10;
+            int v2 = (n12 % 100)/10;
+            n12 = v1 + v2;
+            }
+            if (n10 >= 10){
+                int v1 = n10 % 10;
+                int v2 = (n10 % 100)/10;
+                n10 = v1 + v2;
+            }
+            if (n8 >= 10){
+                int v1 = n8 % 10;
+                int v2 = (n8 % 100)/10;
+                n8 = v1 + v2;
+            }
+            if (n6 >= 10){
+                int v1 = n6 % 10;
+                int v2 = (n6 % 100)/10;
+                n6 = v1 + v2;
+            }
+            if (n4 >= 10){
+                int v1 = n4 % 10;
+                int v2 = (n4 % 100)/10;
+                n4 = v1 + v2;
+            }
+            if (n2 >= 10){
+                int v1 = n2 % 10;
+                int v2 = (n2 % 100)/10;
+                n2 = v1 + v2;
+            }
+                
         }
         else{
             if (n1 == 5 && (n2 == 1 || n2 == 2 || n2 == 3 || n2 == 4 || n2 == 5)){ // isso quer dizer que o MASTERCARD começa sempre com 51, 52, 53, 54 e 55
-                printf("MASTERCARD \n"); //MASTERCARD tem 16 dígitos
+                char * banco = "MASTERCARD";
+                printf("%s \n", banco); //MASTERCARD tem 16 dígitos
                 n15 *= 2; n13 *= 2; n11 *= 2; n9 *= 2; n7 *= 2; n5 *= 2; n3 *= 2; n1 *= 2;
-                printf("%d \n", n1);
+                if (n15 >= 10){
+                    int v1 = n15 % 10;
+                    int v2 = (n15 % 100)/10;
+                    n15 = v1 + v2;
+                    }
+                if (n13 >= 10){
+                    int v1 = n13 % 10;
+                    int v2 = (n13 % 100)/10;
+                    n13 = v1 + v2;
+                }
+                if (n11 >= 10){
+                    int v1 = n11 % 10;
+                    int v2 = (n11 % 100)/10;
+                    n11 = v1 + v2;
+                }
+                if (n9 >= 10){
+                    int v1 = n9 % 10;
+                    int v2 = (n9 % 100)/10;
+                    n9 = v1 + v2;
+                }
+                if (n7 >= 10){
+                    int v1 = n7 % 10;
+                    int v2 = (n7 % 100)/10;
+                    n7 = v1 + v2;
+                }
+                if (n5 >= 10){
+                    int v1 = n5 % 10;
+                    int v2 = (n5 % 100)/10;
+                    n5 = v1 + v2;
+                }
+                if (n3 >= 10){
+                    int v1 = n3 % 10;
+                    int v2 = (n3 % 100)/10;
+                    n3 = v1 + v2;
+                } 
+                if (n1 >= 10){
+                    int v1 = n1 % 10;
+                    int v2 = (n1 % 100)/10;
+                    n1 = v1 + v2;
+                }
             }
             else{
                 if (n1 == 4){
+                    n15 *= 2; n13 *= 2; n11 *= 2; n9 *= 2; n7 *= 2; n5 *= 2; n3 *= 2; n1 *= 2;
                     char * banco = "VISA";
                     printf("%s \n", banco);
+                    if (n15 >= 10){
+                    int v1 = n15 % 10;
+                    int v2 = (n15 % 100)/10;
+                    n15 = v1 + v2;
+                    }
+                    if (n13 >= 10){
+                        int v1 = n13 % 10;
+                        int v2 = (n13 % 100)/10;
+                        n13 = v1 + v2;
+                    }
+                    if (n11 >= 10){
+                        int v1 = n11 % 10;
+                        int v2 = (n11 % 100)/10;
+                        n11 = v1 + v2;
+                    }
+                    if (n9 >= 10){
+                        int v1 = n9 % 10;
+                        int v2 = (n9 % 100)/10;
+                        n9 = v1 + v2;
+                    }
+                    if (n7 >= 10){
+                        int v1 = n7 % 10;
+                        int v2 = (n7 % 100)/10;
+                        n7 = v1 + v2;
+                    }
+                    if (n5 >= 10){
+                        int v1 = n5 % 10;
+                        int v2 = (n5 % 100)/10;
+                        n5 = v1 + v2;
+                    }
+                    if (n3 >= 10){
+                        int v1 = n3 % 10;
+                        int v2 = (n3 % 100)/10;
+                        n3 = v1 + v2;
+                    }
+                    if (n1 >= 10){
+                        int v1 = n1 % 10;
+                        int v2 = (n1 % 100)/10;
+                        n1 = v1 + v2;
+                    }
                 }
-            }
+                else{
+                    printf("Cartão Inválido!");
+                    return 0;
+                }
+            }    
         }
     }
-
-
-
-
-    // Exibe os números do cartão e a soma modifcação
-    printf("%lld %lld %lld %lld %lld %lld %lld %lld %lld %lld %lld %lld %lld %lld %lld %lld \n", 
-           n1, n2, n3, n4, n5, n6, n7, n8, n9, n10, n11, n12, n13, n14, n15, n16);
-}
+} //Cansei
