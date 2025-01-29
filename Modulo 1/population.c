@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void) {
+int main() {
     int init, end, grow = 0, dead, i = 0;
     do{
         printf("Start Size: ");
@@ -12,7 +12,7 @@ int main(void) {
         scanf("%d", &end);
     }while(init > end);
 
-    while (init < end){
+    while(init < end){
         grow = init / 3;
         dead = init / 4;
         init += grow - dead;
