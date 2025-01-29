@@ -1,8 +1,5 @@
 #include <stdio.h>
 
-int separar(){
-    
-}
 int main(void){
     long long i = 5502099972214302; // Número do cartão (Esse número é válido: 4532778771095 371449635398431 5200828282828210 4111111111111111)
 
