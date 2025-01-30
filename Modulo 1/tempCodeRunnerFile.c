@@ -1,1 +1,0 @@
- || init == end || init > end
