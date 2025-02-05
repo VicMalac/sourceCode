@@ -1,12 +1,23 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 const int total = 3; //Numero fixo de notas
+float average();
+
 int main(void){
-    int notas[3];
+    system("cls");
+    int notas[total];
     for (int i = 0; i < total; i++){
         printf("Digite a nota: ");
-        scanf("%f", &notas[i]);
+        scanf("%d", &notas[i]);
     }
 
-    printf("Media: %f\n", (notas[0] + notas[1] + notas[2]) / 3.0);
+    printf("Media: %.2f\n", average(total, notas));
+}
+float average(int length, int array[]){
+    int sum = 0;
+    for(int i = 0; i < length; i++){
+        sum += array[i];
+    }
+    return sum / (float) length;
 }
