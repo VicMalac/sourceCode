@@ -3,5 +3,5 @@
 int main(void){
     char hash = '#';
 
-    printf("%f", (float) hash);
+    printf("%i", (int) hash);
 }
