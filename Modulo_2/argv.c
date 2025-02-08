@@ -1,13 +1,12 @@
 #include <stdio.h>
-#include <string.h>
 #include <stdlib.h>
+#include <string.h>
 
-int main(int argc, char argv[]){
-    system("cls");
-    if (argv == 2){
-        printf("FDS");          //Entendi nada, peesquisar
+int main (int argc, char *argv[]){
+    if (argc == 2){
+        for (int i = 0, n = strlen(argv[1]); i < n; i++){ //Para executar deve ir no terminal e digitar ./argv e um argumento
+        printf("%c\n", argv[1][i]);
+        }
     }
-    else{
-        printf("Nao fds");
-    }
+    
 }
