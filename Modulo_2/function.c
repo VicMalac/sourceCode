@@ -14,7 +14,7 @@ int main(void){
 
     printf("Media: %.2f\n", average(total, notas)); //Vai imprimir a função average utilizando a constante total e o array notas
 }
-float average(int length, int array[]){ //Declaraa função average utilizando uma variavel e um array
+float average(int length, int array[]){ //Declara função average utilizando uma variavel e um array
     int sum = 0;
     for(int i = 0; i < length; i++){ //Repete até que i seja igual length, e length == total
         sum += array[i]; //Sum recebe sempre array[i] array == notas
