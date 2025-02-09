@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <string.h>
+
 int main(void){
+    
     char s[100]; //Declara o array com tamanho até 100
     printf("Input: ");
     scanf("%[^\n]", s); //Pega um input utilizando %[^\n], tem qu ser dessa forma, tenho que entender
