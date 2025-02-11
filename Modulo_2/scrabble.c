@@ -11,19 +11,19 @@ int main(void){
     scanf(" %[^\n]", pl2);
 
     //calculo dos pontos
-    for (int i = 0, n = strlen(pl1); i < n; i++){
-        tolower(pl1[i]);
-        if (pl1[i] >= 'a' && pl1[i] <= 'z'){
-            pts1 += points[pl1[i] - 'a'];
+    for (int i = 0, n = strlen(pl1); i < n; i++){ //Aqui a variavel n recebe o tamanho da frase e a condição repete enquanto i for menor que n
+        tolower(pl1[i]); //Converte os caracteres de pl1 para minusculos
+        if (pl1[i] >= 'a' && pl1[i] <= 'z'){ //Basicamente se pl1 for maior do que 'a' e menor do que 'z', ambos com um valor na tabela ASCII
+            pts1 += points[pl1[i] - 'a']; //'a' vale 99, então sempre que houver uma separação de caractere ele leva seu valoe, exemplo: 'c' == 101, então 101 - 99 = 2, sendo assim pts1 recebe 2
         }
     }
-    for (int i = 0, n = strlen(pl2); i < n; i++){
+    for (int i = 0, n = strlen(pl2); i < n; i++){ //Repete a mesma estrutura do primeiro if mas com o array pl2
         tolower(pl2[i]);
         if (pl2[i] >= 'a' && pl2[i] <= 'z'){
             pts2 += points[pl2[i] - 'a'];
         }
     }
-
+    //Exibição dos vencedores verificando se é maior menor ou igual um ao outro
     if (pts1 > pts2){
         printf("Player 1 wins!\n");
     }
