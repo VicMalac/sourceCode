@@ -1,0 +1,83 @@
+1. Exercícios de Lógica de Programação em C
+Calculadora de Operações Básicas: Faça um programa que leia dois números e imprima a soma, subtração, multiplicação e divisão entre eles, e verifique se a divisão é válida (não dividir por zero).
+
+Determinando se um número é múltiplo de outro: Crie um programa que leia dois números e determine se o primeiro é múltiplo do segundo.
+
+Par ou Ímpar: Desenvolva um programa que leia um número e verifique se ele é par ou ímpar, e também imprima a quantidade de números pares de 1 até o número informado.
+
+Calculadora de Potência: Crie um programa que leia dois números inteiros e calcule o primeiro elevado ao segundo usando a função pow() da biblioteca math.h.
+
+Troca de Variáveis: Implemente um programa que leia duas variáveis inteiras e troque os valores entre elas sem usar uma variável auxiliar.
+
+Maior e Menor Número: Faça um programa que leia três números e imprima o maior e o menor número entre eles.
+
+Calculadora de Fatorial: Escreva um programa que calcule o fatorial de um número informado pelo usuário.
+
+Soma dos Números de 1 até N: Crie um programa que leia um número N e calcule a soma de todos os números de 1 até N.
+
+Verificando Anagramas: Crie um programa que leia duas strings e determine se uma é anagrama da outra (isto é, se as duas têm as mesmas letras, mas em ordens diferentes).
+
+Contando Caracteres em uma String: Escreva um programa que conte quantas vezes uma determinada letra aparece em uma string informada pelo usuário.
+
+2. Exercícios de Estruturas de Controle em C
+Contagem de Pares e Ímpares: Crie um programa que leia 10 números e imprima a quantidade de números pares e ímpares.
+
+Calcule a Média de N Notas: Desenvolva um programa que leia um número N (quantidade de notas) e, em seguida, leia as N notas de um aluno. Calcule e imprima a média dessas notas.
+
+Verificando Números Primos: Implemente um programa que leia um número e determine se ele é primo ou não.
+
+Fatorial Reverso: Faça um programa que leia um número N e calcule o fatorial de N de trás para frente (de N! a 1!).
+
+Números Fibonacci: Escreva um programa que leia um número N e imprima os N primeiros números da sequência Fibonacci.
+
+Verificando Palíndromo: Crie um programa que leia uma palavra e determine se ela é um palíndromo (lê-se da mesma forma de trás para frente).
+
+Tabuada de um Número: Faça um programa que leia um número e imprima sua tabuada de 1 a 10.
+
+Impressão de Triângulo de Asteriscos: Crie um programa que leia um número inteiro N e imprima um triângulo de asteriscos com N linhas.
+
+Calculadora de Média Ponderada: Crie um programa que leia 3 notas e seus respectivos pesos, e calcule a média ponderada.
+
+Soma de Dígitos de um Número: Implemente um programa que leia um número e calcule a soma dos seus dígitos.
+
+3. Exercícios de Funções em C
+Função de Soma: Crie uma função que receba dois números e retorne a soma deles.
+
+Função de Fatorial: Implemente uma função que receba um número e retorne o seu fatorial.
+
+Função de Verificação de Par ou Ímpar: Crie uma função que receba um número e retorne se ele é par ou ímpar.
+
+Função de Troca de Variáveis: Desenvolva uma função que troque os valores de duas variáveis inteiras.
+
+Função de Contagem de Caracteres em uma String: Escreva uma função que conte quantos caracteres (sem considerar espaços) há em uma string fornecida.
+
+Função de Exibição de Tabela de Multiplicação: Crie uma função que receba um número e imprima sua tabuada até 10.
+
+Função de Cálculo da Potência: Implemente uma função que calcule a potência de um número, ou seja, x^y.
+
+Função de Cálculo de Média de um Vetor: Desenvolva uma função que receba um vetor de números e retorne a média dos valores.
+
+Função de Ordenação de Vetor: Crie uma função que receba um vetor de inteiros e o ordene de forma crescente.
+
+Função de Cálculo de Raiz Quadrada: Faça uma função que calcule a raiz quadrada de um número, utilizando o método de aproximação.
+
+4. Exercícios de Arrays em C
+Soma de Elementos de um Array: Crie um programa que leia 5 números inteiros em um vetor e calcule a soma de todos os elementos.
+
+Busca Linear: Faça um programa que leia um número e verifique se ele existe em um vetor de 10 números.
+
+Média de um Vetor: Desenvolva um programa que leia 10 números inteiros em um vetor e calcule a média desses números.
+
+Ordenação por Bolha: Implemente o algoritmo de ordenação por bolha para ordenar um vetor de 10 números.
+
+Contagem de Frequência de Elementos: Crie um programa que leia um vetor de 10 números e conte quantas vezes cada número aparece no vetor.
+
+Inverter os Elementos de um Vetor: Faça um programa que leia 5 números e depois inverta a ordem dos números no vetor.
+
+Buscar o Maior e o Menor Elemento do Vetor: Desenvolva um programa que leia 7 números inteiros em um vetor e encontre o maior e o menor número do vetor.
+
+Média dos Números Ímpares de um Vetor: Implemente um programa que calcule a média dos números ímpares de um vetor de 10 números inteiros.
+
+Encontrar Duplicatas no Vetor: Crie um programa que leia 10 números em um vetor e encontre os números duplicados.
+
+Preencher um Vetor com a Tabela de Multiplicação: Faça um programa que preencha um vetor de 10 elementos com os valores da tabuada de 7 (7x1, 7x2, ...).
