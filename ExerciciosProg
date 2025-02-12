@@ -62,7 +62,7 @@ Função de Ordenação de Vetor: Crie uma função que receba um vetor de intei
 Função de Cálculo de Raiz Quadrada: Faça uma função que calcule a raiz quadrada de um número, utilizando o método de aproximação.
 
 4. Exercícios de Arrays em C
-Soma de Elementos de um Array: Crie um programa que leia 5 números inteiros em um vetor e calcule a soma de todos os elementos.
+(Resolvido) Soma de Elementos de um Array: Crie um programa que leia 5 números inteiros em um vetor e calcule a soma de todos os elementos.
 
 Busca Linear: Faça um programa que leia um número e verifique se ele existe em um vetor de 10 números.
 
