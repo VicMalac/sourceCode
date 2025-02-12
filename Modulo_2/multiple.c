@@ -5,13 +5,13 @@ int main(void){
     int n1, n2;
     printf("Digite o numero 1: ");
     scanf("%d", &n1);
-    printf("Digite o número 2: ");
+    printf("Digite o numero 2: ");
     scanf("%d", &n2);
 
     if (n1 % n2 == 0){
-        printf("Divisivel");
+        printf("O primeiro numero e multiplo do segundo");
     }
     else{
-        printf("Nao divisivel");
+        printf("O primeiro numero nao e multiplo do segundo");
     }
 }
