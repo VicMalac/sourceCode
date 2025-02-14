@@ -26,7 +26,7 @@ Verificando Números Primos: Implemente um programa que leia um número e determ
 
 Fatorial Reverso: Faça um programa que leia um número N e calcule o fatorial de N de trás para frente (de N! a 1!).
 
-Números Fibonacci: Escreva um programa que leia um número N e imprima os N primeiros números da sequência Fibonacci.
+(Meio completo) Números Fibonacci: Escreva um programa que leia um número N e imprima os N primeiros números da sequência Fibonacci.
 
 Verificando Palíndromo: Crie um programa que leia uma palavra e determine se ela é um palíndromo (lê-se da mesma forma de trás para frente).
 
