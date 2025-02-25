@@ -21,8 +21,14 @@ int main (void){
     printf("ciphertext: ");
     for(int i = 0, n = strlen(phrase); i < n; i++){
         if (phrase[i] + caesar > 'z'){ // 'a' = 97  &&  'A' = 65
-            caesar += (phrase[i] - 'z');
-            printf("%c", 'a' + caesar);
+            if (phrase[i] + caesar >'Z'){
+                caesar += (phrase[i] - 'Z');
+
+            }
+            else{
+                caesar += (phrase[i] - 'z');
+                printf("%c", 'a' + caesar);
+            }
         }
         else{
                 printf("%c", phrase[i] + caesar);
