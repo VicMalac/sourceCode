@@ -54,7 +54,7 @@ int main(void){
                     num++;
                     }
         
-                printf("%c", alfa[num]);
+                printf("%c", toupper(alfa[num]));
         }
         //Aqui preciso fazer alguma forma de mudar a letra, se eu digitar cdb na key, e digitar abc no input, deve aparecer cdb
 
