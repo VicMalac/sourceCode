@@ -6,7 +6,7 @@
 int main(void){
     char word[100];
     printf("Before: ");
-    scanf("%[^\n]", word);
+    fgets(word, sizeof(word), stdin);
 
     printf("After: ");
     for (int i = 0, n = strlen(word); i < n; i ++){
