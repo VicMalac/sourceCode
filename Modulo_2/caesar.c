@@ -19,12 +19,16 @@ int main (void){
     printf("number: ");
     scanf("%d", &caesar);
     printf("ciphertext: ");
-    int result;
     for(int i = 0, n = strlen(phrase); i < n; i++){
-        result = 1;
         if (phrase[i] + caesar > 'z'){ // 'a' = 97  &&  'A' = 65
-            result = caesar - ('z' - phrase[i]);
-            printf("%c", 96 + result);
+            if (phrase[i] + caesar >'Z'){
+                caesar += (phrase[i] - 'Z');
+
+            }
+            else{
+                caesar += (phrase[i] - 'z');
+                printf("%c", 'a' + caesar);
+            }
         }
         else{
                 printf("%c", phrase[i] + caesar);

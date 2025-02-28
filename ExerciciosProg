@@ -1,13 +1,11 @@
 1. Exercícios de Lógica de Programação em C
 Calculadora de Operações Básicas: Faça um programa que leia dois números e imprima a soma, subtração, multiplicação e divisão entre eles, e verifique se a divisão é válida (não dividir por zero).
 
-Determinando se um número é múltiplo de outro: Crie um programa que leia dois números e determine se o primeiro é múltiplo do segundo.
+(Feito) Determinando se um número é múltiplo de outro: Crie um programa que leia dois números e determine se o primeiro é múltiplo do segundo.
 
 Par ou Ímpar: Desenvolva um programa que leia um número e verifique se ele é par ou ímpar, e também imprima a quantidade de números pares de 1 até o número informado.
 
 Calculadora de Potência: Crie um programa que leia dois números inteiros e calcule o primeiro elevado ao segundo usando a função pow() da biblioteca math.h.
-
-Troca de Variáveis: Implemente um programa que leia duas variáveis inteiras e troque os valores entre elas sem usar uma variável auxiliar.
 
 Maior e Menor Número: Faça um programa que leia três números e imprima o maior e o menor número entre eles.
 
@@ -28,7 +26,7 @@ Verificando Números Primos: Implemente um programa que leia um número e determ
 
 Fatorial Reverso: Faça um programa que leia um número N e calcule o fatorial de N de trás para frente (de N! a 1!).
 
-Números Fibonacci: Escreva um programa que leia um número N e imprima os N primeiros números da sequência Fibonacci.
+(Meio completo) Números Fibonacci: Escreva um programa que leia um número N e imprima os N primeiros números da sequência Fibonacci.
 
 Verificando Palíndromo: Crie um programa que leia uma palavra e determine se ela é um palíndromo (lê-se da mesma forma de trás para frente).
 
