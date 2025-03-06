@@ -1,8 +1,6 @@
 1. Exercícios de Lógica de Programação em C
 Calculadora de Operações Básicas: Faça um programa que leia dois números e imprima a soma, subtração, multiplicação e divisão entre eles, e verifique se a divisão é válida (não dividir por zero).
 
-(Feito) Determinando se um número é múltiplo de outro: Crie um programa que leia dois números e determine se o primeiro é múltiplo do segundo.
-
 Par ou Ímpar: Desenvolva um programa que leia um número e verifique se ele é par ou ímpar, e também imprima a quantidade de números pares de 1 até o número informado.
 
 Calculadora de Potência: Crie um programa que leia dois números inteiros e calcule o primeiro elevado ao segundo usando a função pow() da biblioteca math.h.
