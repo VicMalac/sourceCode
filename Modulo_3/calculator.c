@@ -17,7 +17,7 @@ int main (void) {
     result = num1 - num2;
     printf("Subtracao: %d\n", (int)result);
     result = num1 * num2;
-    printf("Multiplicacao: %d\n", (int)result); 
+    printf("Multiplicacao: %d\n", (int)result);
 
     if (num2 == 0) {
         printf("%d não pode ser dividido por zero\n");
