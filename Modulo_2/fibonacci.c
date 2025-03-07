@@ -9,7 +9,7 @@ int main(void){
     system("cls");
     int n = 0, x = 1, y = 1, sum;
     printf("Digite um numero: ");
-    scanf("%i", &n);
+    scanf("%d", &n);
     for (int i = 1; i <= n; i+=2){
         printf("%i %i ", x, y);
         x += y;

@@ -15,8 +15,6 @@ Verificando Números Primos: Implemente um programa que leia um número e determ
 
 Fatorial Reverso: Faça um programa que leia um número N e calcule o fatorial de N de trás para frente (de N! a 1!).
 
-(Meio completo) Números Fibonacci: Escreva um programa que leia um número N e imprima os N primeiros números da sequência Fibonacci.
-
 Verificando Palíndromo: Crie um programa que leia uma palavra e determine se ela é um palíndromo (lê-se da mesma forma de trás para frente).
 
 Tabuada de um Número: Faça um programa que leia um número e imprima sua tabuada de 1 a 10.
@@ -42,7 +40,7 @@ Função de Exibição de Tabela de Multiplicação: Crie uma função que receb
 
 Função de Cálculo da Potência: Implemente uma função que calcule a potência de um número, ou seja, x^y.
 
-Função de Cálculo de Média de um Vetor: Desenvolva uma função que receba um vetor de números e retorne a média dos valores.
+Função de Cálculo de Média de um Vetor: Desenvolva uma função que receba um vetor(Array) de números e retorne a média dos valores.
 
 Função de Ordenação de Vetor: Crie uma função que receba um vetor de inteiros e o ordene de forma crescente.
 
