@@ -1,13 +1,5 @@
 1. Exercícios de Lógica de Programação em C
 
-Par ou Ímpar: Desenvolva um programa que leia um número e verifique se ele é par ou ímpar, e também imprima a quantidade de números pares de 1 até o número informado.
-
-Calculadora de Potência: Crie um programa que leia dois números inteiros e calcule o primeiro elevado ao segundo usando a função pow() da biblioteca math.h.
-
-Maior e Menor Número: Faça um programa que leia três números e imprima o maior e o menor número entre eles.
-
-Calculadora de Fatorial: Escreva um programa que calcule o fatorial de um número informado pelo usuário.
-
 Soma dos Números de 1 até N: Crie um programa que leia um número N e calcule a soma de todos os números de 1 até N.
 
 Verificando Anagramas: Crie um programa que leia duas strings e determine se uma é anagrama da outra (isto é, se as duas têm as mesmas letras, mas em ordens diferentes).

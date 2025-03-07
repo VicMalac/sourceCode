@@ -1,6 +1,3 @@
-//Par ou Ímpar: Desenvolva um programa que leia um número e verifique 
-//se ele é par ou ímpar, e também imprima a quantidade de números pares de 1 até o número informado.
-
 #include <stdio.h>
 #include <stdlib.h>
 
