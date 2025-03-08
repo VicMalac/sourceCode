@@ -1,10 +1,7 @@
 1. Exercícios de Lógica de Programação em C
 
-Soma dos Números de 1 até N: Crie um programa que leia um número N e calcule a soma de todos os números de 1 até N.
-
 Verificando Anagramas: Crie um programa que leia duas strings e determine se uma é anagrama da outra (isto é, se as duas têm as mesmas letras, mas em ordens diferentes).
 
-Contando Caracteres em uma String: Escreva um programa que conte quantas vezes uma determinada letra aparece em uma string informada pelo usuário.
 
 2. Exercícios de Estruturas de Controle em C
 Contagem de Pares e Ímpares: Crie um programa que leia 10 números e imprima a quantidade de números pares e ímpares.
