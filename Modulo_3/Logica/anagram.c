@@ -21,7 +21,7 @@ void imprimirArray(char arr[], int n) {
 }
 
 int main() {
-    char arr[] = {"testeeeeee"};
+    char arr[] = {"teste"};                   //!Aqui estou tentando entender ainda como tudo isso aqui funciona
     int n = sizeof(arr) / sizeof(arr[0]);
 
     printf("Array original: ");
