@@ -30,13 +30,12 @@ int main() {
     removerElemento(arr, &n, 'e');  // Removendo o número 3
 
     printf("Array apos remocao: ");
-    imprimirArray(arr, n);
+    imprimirArray(arr, n); 
 
     return 0;
 }
 
-
-//Verificando Anagramas: Crie um programa que leia duas strings e determine se uma é anagrama da outra (isto é, se as duas têm as mesmas letras, mas em ordens diferentes).
+//Verificando Anagramas: Crie um programa que leia duas strings e determine se uma é anagrama da outra (isto é, se as duas palavras têm as mesmas letras, mas em ordens diferentes).
 
 #include <stdio.h>
 
