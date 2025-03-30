@@ -4,13 +4,8 @@
 
 
 2. Exercícios de Estruturas de Controle em C
-Contagem de Pares e Ímpares: Crie um programa que leia 10 números e imprima a quantidade de números pares e ímpares.
-
-Calcule a Média de N Notas: Desenvolva um programa que leia um número N (quantidade de notas) e, em seguida, leia as N notas de um aluno. Calcule e imprima a média dessas notas.
 
 Verificando Números Primos: Implemente um programa que leia um número e determine se ele é primo ou não.
-
-Fatorial Reverso: Faça um programa que leia um número N e calcule o fatorial de N de trás para frente (de N! a 1!).
 
 Verificando Palíndromo: Crie um programa que leia uma palavra e determine se ela é um palíndromo (lê-se da mesma forma de trás para frente).
 
@@ -63,3 +58,4 @@ Média dos Números Ímpares de um Vetor: Implemente um programa que calcule a m
 Encontrar Duplicatas no Vetor: Crie um programa que leia 10 números em um vetor e encontre os números duplicados.
 
 Preencher um Vetor com a Tabela de Multiplicação: Faça um programa que preencha um vetor de 10 elementos com os valores da tabuada de 7 (7x1, 7x2, ...).
+

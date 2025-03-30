@@ -22,7 +22,7 @@ int main(void){
     }
     int sentence = 0;
     for (int i = 0; phrase[i] != '\0'; i++){
-        if((phrase[i] == '!' || phrase[i] == '.' || phrase[i] == '?') && phrase[i + 1] != '!' && phrase[i + 1] != '.' && phrase[i + 1] != '?'){ 
+        if((phrase[i] == '!' || phrase[i] == '.' || phrase[i] == '?') && (phrase[i + 1] != '!' && phrase[i + 1] != '.' && phrase[i + 1] != '?')){ 
             sentence++;
         }
     }
